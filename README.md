@@ -7,12 +7,12 @@ The console.py module offers a command-line interface for controlling and manipu
 
 #Methods:
 
-do_quit(): Exit the program.
-do_EOF(): Exit the program on end-of-file.
-emptyline: Ignore empty lines.
-do_create(): Create and save a new instance of the specified class.
-do_show(): Print details of an instance by class name and id.
-do_destroy(): Delete an instance by class name and id.
-do_all(): Print string representations of instances by class or all.
-do_update(): Update instance attribute by class and id.
+## do_quit(): Exit the program.
+## do_EOF(): Exit the program on end-of-file.
+## emptyline: Ignore empty lines.
+## do_create(): Create and save a new instance of the specified class.
+## do_show(): Print details of an instance by class name and id.
+## do_destroy(): Delete an instance by class name and id.
+## do_all(): Print string representations of instances by class or all.
+## do_update(): Update instance attribute by class and id.
 
