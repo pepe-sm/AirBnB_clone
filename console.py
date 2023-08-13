@@ -22,16 +22,9 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
     def do_quit(self, input):
-        """
-        Exit 
-        """
         return True
 
     def do_EOF(self, input):
-        """
-        Exit (EOF)
-        """
-        print()
         return True
 
     def emptyline(self):
