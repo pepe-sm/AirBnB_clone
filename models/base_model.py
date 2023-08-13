@@ -35,7 +35,7 @@ class BaseModel():
         models.storage.save()
 
     def to_dict(self):
-        """ Returnsinstance in dict format """
+        """ Return instance in dict format """
         my_dict = self.__dict__.copy()
         my_dict['__class__'] = self.__class__.__name__
         my_dict['created_at'] = my_dict['created_at'].isoformat()
